@@ -95,6 +95,7 @@ class EditProfile extends Component {
 			githubusername: this.state.githubusername,
 			bio: this.state.bio,
 			twitter: this.state.twitter,
+			facebook: this.state.facebook,
 			linkedin: this.state.linkedin,
 			youtube: this.state.youtube,
 			instagram: this.state.instagram,

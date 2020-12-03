@@ -53,6 +53,7 @@ class CreateProfile extends Component {
 			githubusername: this.state.githubusername,
 			bio: this.state.bio,
 			twitter: this.state.twitter,
+			facebook: this.state.facebook,
 			linkedin: this.state.linkedin,
 			youtube: this.state.youtube,
 			instagram: this.state.instagram,
@@ -128,7 +129,7 @@ class CreateProfile extends Component {
 			{ label: 'Senior Developer', value: 'Senior Developer' },
 			{ label: 'Manager', value: 'Manager' },
 			{ label: 'Student or Learning', value: 'Student or Learning' },
-			{ label: 'Instructor', value: 'Instructor' },
+			{ label: 'Instructor or Teacher', value: 'Instructor or Teacher' },
 			{ label: 'Intern', value: 'Intern' },
 			{ label: 'Other', value: 'Other' },
 		];
